@@ -6,12 +6,12 @@
 /*   By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 12:17:28 by vsmolii           #+#    #+#             */
-/*   Updated: 2019/04/01 14:07:33 by vsmolii          ###   ########.fr       */
+/*   Updated: 2019/04/05 13:36:08 by vsmolii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 
 void	ft_putchar(char c)

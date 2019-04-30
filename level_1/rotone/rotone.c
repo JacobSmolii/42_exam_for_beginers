@@ -6,7 +6,7 @@
 /*   By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/17 18:26:30 by vsmolii           #+#    #+#             */
-/*   Updated: 2019/02/17 18:36:21 by vsmolii          ###   ########.fr       */
+/*   Updated: 2019/04/05 18:45:56 by vsmolii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	rotone(char *str)
 	i = 0;
 	while (str[i])
 	{
-		if (str[i] >= 'a' && str[i] <= 'y')
+		if ((str[i] >= 'a' && str[i] <= 'y') || (str[i] >= 'A' && str[i] <= 'Y'))
 			ft_putchar(str[i] + 1);
 		else if (str[i] == 'z' || str[i] == 'Z')
 			ft_putchar(str[i] - 32);

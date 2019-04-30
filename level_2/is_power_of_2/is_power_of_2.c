@@ -6,7 +6,7 @@
 /*   By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/22 17:38:31 by vsmolii           #+#    #+#             */
-/*   Updated: 2019/02/22 18:16:59 by vsmolii          ###   ########.fr       */
+/*   Updated: 2019/04/06 11:46:22 by vsmolii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,16 @@
 // }
 
 
-int		is_power_of_2(unsigned int n) // правильная версия
+// правильная версия снизу
+int		is_power_of_2(unsigned int n)
 {
 	unsigned int i;
 
 	i = 0;
 	if (n == 0)
 		return (0);
+	if (n == 2)
+		return (1);
 	while (i < n)
 	{
 		if ((i * i) == n)
