@@ -1,0 +1,21 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+
+		{
+			"name": "gcc build and debug active file",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "/nfs/2018/v/vsmolii/Desktop/exams/exam_intermidiate/level_5/g_diam/a.out",
+			"args": ["13-5 5-8 8-2 2-8 2-8 13-16 16-2 5-2 2-6 6-10 6-7 7-15 15-10 10-18"],
+			"stopAtEntry": true,
+			"cwd": "/nfs/2018/v/vsmolii/Desktop/exams/exam_intermidiate/level_5/g_diam",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "lldb",
+		}
+	]
+}
